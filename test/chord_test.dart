@@ -8,7 +8,7 @@ void main() {
   });
 
   test('chord names format correctly', () {
-    final c = Chord(root: NoteName.a, quality: ChordQuality.minor, voicings: []);
+    const c = Chord(root: NoteName.a, quality: ChordQuality.minor, voicings: []);
     expect(c.name, 'Am');
   });
 
